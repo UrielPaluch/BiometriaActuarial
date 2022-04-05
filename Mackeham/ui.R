@@ -20,9 +20,7 @@ shinyUI(fluidPage(
         sidebarPanel(
             numericInput("param_A", "A value", value = 0.0001),
             numericInput("param_B", "B value", value = 0.00035),
-            numericInput("param_C", "C value", value = 1.075),
-            numericInput("x_value", "x value", value = 0),
-            sliderInput("age_range", "Age range", value = c(0, 130), min = 0, max = 200)
+            numericInput("param_C", "C value", value = 1.075)
         ),
 
         # Show a plot of the generated distribution
